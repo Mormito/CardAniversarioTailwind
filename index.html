@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
     <title>Feliz Aniversário</title>
 </head>
+
 <body class="bg-zinc-950 font-mono min-h-screen flex items-center justify-center p-4">
 
     <div class="w-full max-w-md h-auto px-4 pb-4 rounded-lg shadow-lg bg-zinc-900 border-3 border-zinc-800">
@@ -15,11 +17,11 @@
         </div>
 
         <div class="p-4 rounded mt-4 flex items-center justify-center">
-            <img class="w-3/4 h-auto max-w-xs rounded-full border-2 border-red-500" src="mariaclara.png" alt="Maria Clara">
+                <img class="w-3/4 h-auto max-w-xs rounded-full border-2 border-red-500" src="mariaclara.png" alt="Maria Clara">
         </div>
 
         <section class="bg-zinc-800 p-4 rounded mt-4 text-justify font-bold text-red-500">
-            <p >Maria, você é maravilhosa de corpo e alma, eu anseio pela vida que teremos juntos e pelos diversos aniversários que iremos passar juntos. Feliz 20 anos (aproveite, só se faz 20 uma vez).</p>
+            <p >Maria, você é maravilhosa de corpo e alma, eu anseio pela vida que teremos juntos e pelos diversos aniversários que iremos passar juntos. Feliz 20 anos!</p>
         </section>
 
         <section class="flex items-center gap-7 justify-center mt-4">
@@ -31,10 +33,11 @@
             </p>
         </section>
 
-
     </div>
 
-
+    <script src="scriptconfetti.js">
+        fire();
+    </script>
 
 </body>
 </html>
