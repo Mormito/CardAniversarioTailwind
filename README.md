@@ -1,1 +1,1 @@
-Cartão de aniversário utilizandop tailwind.
+Cartão de aniversário utilizando Tailwind.
